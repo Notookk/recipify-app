@@ -1,8 +1,8 @@
 # Recipify - Recipe Discovery App
 
-A modern, responsive React application for discovering and exploring recipes with an improved contact form that sends emails directly to your inbox.
+A clean, responsive React application for discovering and exploring recipes with a simple contact form that stores data locally.
 
-## ✨ Recent Improvements
+## ✨ Features
 
 ### 🎨 Enhanced UI/UX
 - **Fully Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
