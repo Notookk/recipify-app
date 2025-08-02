@@ -50,7 +50,16 @@ function Home() {
     <div className="home-page">
       <p className="p">Welcome to Recipify</p>
       <div className="slider">
-        <img src={sliderImages[current]} alt="Food slider" className="slider-img" />
+        <div className="slider-container">
+          {sliderImages.map((image, idx) => (
+            <img
+              key={idx}
+              src={image}
+              alt={`Food slider ${idx + 1}`}
+              className={`slider-img ${current === idx ? 'active' : ''}`}
+            />
+          ))}
+        </div>
         <div className="slider-controls">
           {sliderImages.map((_, idx) => (
             <span
